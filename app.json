@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "WellPlayed Music",
+    "slug": "AwesomeProject",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Music-icon.png",
+    "splash": {
+      "image": "./assets/Music-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.wellplayed.wellplayed",
+      "versionCode": 1
+    },
+    "description": "music playing for private usage "
+  }
+}
